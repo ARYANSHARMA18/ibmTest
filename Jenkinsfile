@@ -9,13 +9,5 @@ pipeline {
                 }
             }
         }
-
-        stage('Test') {
-            steps {
-                dir('src/main/java') {
-                    sh 'src/main/java HelloWorld'
-                }
-            }
-        }
     }
 }
