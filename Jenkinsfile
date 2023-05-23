@@ -13,7 +13,7 @@ pipeline {
         stage('Test') {
             steps {
                 dir('src/main/java') {
-                    sh 'java HelloWorld'
+                    sh 'src/main/java HelloWorld'
                 }
             }
         }
